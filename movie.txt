@@ -1,10 +1,11 @@
 let movies = [
   {
     id: 1,
-    name: "어벤져스 - 엔드게임",
+    title: "어벤져스 - 엔드게임",
     openDate: "2019.04.24",
     director: ["안소니 루소", "조 루소"],
     genres: ["액션", "SF"],
+    rating: 9.49,
     actors: [
       "로버트 다우니 주니어",
       "크리스 에반스",
@@ -20,10 +21,11 @@ let movies = [
   },
   {
     id: 2,
-    name: "해리포터 - 아즈카반의 죄수",
+    title: "해리포터 - 아즈카반의 죄수",
     openDate: "2004.07.16",
     director: ["알폰소 쿠아론"],
     genres: ["판타지", "가족", "모험", "액션"],
+    rating: 8.72,
     actors: [
       "다니엘 래드클리프",
       "엠마 왓슨",
@@ -39,10 +41,11 @@ let movies = [
   },
   {
     id: 3,
-    name: "센과 치히로의 행방불명",
+    title: "센과 치히로의 행방불명",
     openDate: "2002.06.28",
     director: ["미야자키 하야오"],
     genres: ["애니메이션", "판타지", "모험", "가족"],
+    rating: 9.58,
     actors: [
       "히이라기 루미",
       "이리노 미유",
@@ -58,10 +61,11 @@ let movies = [
   },
   {
     id: 4,
-    name: "맘마미아!",
+    title: "맘마미아!",
     openDate: "2008.09.03",
     director: ["필리다 로이드"],
     genres: ["코미디", "뮤지컬", "멜로/로맨스"],
+    rating: 8.43,
     actors: [
       "메릴 스트립",
       "아만다 사이프리드",
@@ -77,10 +81,11 @@ let movies = [
   },
   {
     id: 5,
-    name: "알라딘",
+    title: "알라딘",
     openDate: "2019.05.23",
     director: ["가이 리치"],
     genres: ["모험", "가족", "판타지", "뮤지컬", "멜로/로맨스"],
+    rating: 9.42,
     actors: [
       "메나 마수드",
       "윌 스미스",
@@ -96,10 +101,11 @@ let movies = [
   },
   {
     id: 6,
-    name: "메기",
+    title: "메기",
     openDate: "2019.09.26",
     director: ["이옥섭"],
     genres: ["드라마", "미스터리", "코미디"],
+    rating: 8.78,
     actors: ["이주영", "문소리", "구교환", "천우희", "박경혜"],
     runningTime: 89,
     summary:
@@ -109,10 +115,11 @@ let movies = [
   },
   {
     id: 7,
-    name: "소공녀",
+    title: "소공녀",
     openDate: "2018.03.22",
     director: ["전고운"],
     genres: ["멜로/로맨스", "드라마"],
+    rating: 9.20,
     actors: ["이솜", "안재홍", "강진아", "김국희", "이성욱"],
     runningTime: 106,
     summary:
@@ -122,10 +129,11 @@ let movies = [
   },
   {
     id: 8,
-    name: "플로리다 프로젝트",
+    title: "플로리다 프로젝트",
     openDate: "2018.03.07",
     director: ["션 베이커"],
     genres: ["드라마"],
+    rating: 8.92,
     actors: [
       "윌렘 대포",
       "브루클린 프린스",
@@ -141,10 +149,11 @@ let movies = [
   },
   {
     id: 9,
-    name: "친절한 금자씨",
+    title: "친절한 금자씨",
     openDate: "2005.07.29",
     director: ["박찬욱"],
     genres: ["스릴러", "드라마"],
+    rating: 7.49,
     actors: ["이영애", "최민식", "권예영", "김시후", "남일우"],
     runningTime: 112,
     summary:
@@ -154,10 +163,11 @@ let movies = [
   },
   {
     id: 10,
-    name: "옥자",
+    title: "옥자",
     openDate: "2017.06.29",
     director: ["봉준호"],
     genres: ["모험", "액션", "드라마"],
+    rating: 8.77,
     actors: ["틸다 스윈튼", "폴 다노", "안서현", "변희봉", "스티븐 연"],
     runningTime: 120,
     summary:
@@ -167,29 +177,11 @@ let movies = [
   },
   {
     id: 11,
-    name: "헝거게임: 캣칭 파이어",
+    title: "헝거게임: 캣칭 파이어",
     openDate: "2013.11.21",
     director: ["프란시스 로렌스"],
     genres: ["판타지", "액션"],
-    actors: [
-      "제니퍼 로렌스",
-      "조쉬 허처슨",
-      "리암 헴스워스",
-      "우디 해럴슨",
-      "샘 클라플린",
-    ],
-    runningTime: 146,
-    summary:
-      "혁명의 불꽃이 될 거대한 생존전쟁! 살아남아라, 최후의 승자가 모든 것을 바꾼다! 헝거게임의 우승으로 독재국가 ‘판엠’의 절대권력을 위협하는 존재가 된 캣니스, 혁명의 불꽃이 된 그녀를 제거하기 위해 캐피톨은 75회 스페셜 헝거게임의 재출전을 강요한다. 역대 최강의 우승자들이 모인 헝거게임에 참가하게 된 캣니스는 판엠의 음모 속에서 적인지 동료인지 알 수 없는 막강한 도전자들과 맞닥뜨린다. 모두의 운명을 걸고 살아남아야 하는 캣니스, 그녀와 함께 혁명의 불꽃이 시작된다.",
-    poster:
-      "https://movie-phinf.pstatic.net/20131105_185/1383644515842maJk5_JPEG/movie_image.jpg",
-  },
-  {
-    id: 11,
-    name: "헝거게임: 캣칭 파이어",
-    openDate: "2013.11.21",
-    director: ["프란시스 로렌스"],
-    genres: ["판타지", "액션"],
+    rating: 8.33,
     actors: [
       "제니퍼 로렌스",
       "조쉬 허처슨",
@@ -205,10 +197,11 @@ let movies = [
   },
   {
     id: 12,
-    name: "전우치",
+    title: "전우치",
     openDate: "2009.12.23",
     director: ["최동훈"],
     genres: ["액션", "코미디", "모험"],
+    rating: 8.20,
     actors: ["강동원", "김윤석", "임수정", "유해진", "송영창"],
     runningTime: 136,
     summary:
@@ -218,10 +211,11 @@ let movies = [
   },
   {
     id: 13,
-    name: "극한직업",
+    title: "극한직업",
     openDate: "2019.01.23",
     director: ["이병헌"],
     genres: ["코미디"],
+    rating: 9.20,
     actors: ["류승룡", "이하늬", "진선규", "이동휘", "공명"],
     runningTime: 111,
     summary:
@@ -231,10 +225,11 @@ let movies = [
   },
   {
     id: 14,
-    name: "드래곤 길들이기",
+    title: "드래곤 길들이기",
     openDate: "2010.05.20",
     director: ["딘 데블로이스", "크리스 샌더스"],
     genres: ["애니메이션", "모험", "코미디", "가족", "판타지"],
+    rating: 9.32,
     actors: [
       "제이 바루첼",
       "제라드 버틀러",
@@ -250,10 +245,11 @@ let movies = [
   },
   {
     id: 15,
-    name: "어바웃 타임",
+    title: "어바웃 타임",
     openDate: "2013.12.05",
     director: ["리차드 커티스"],
     genres: ["멜로/로맨스", "코미디"],
+    rating: 9.28,
     actors: [
       "도널 글리슨",
       "레이첼 맥아담스",
